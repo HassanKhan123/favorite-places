@@ -34,9 +34,11 @@ class _ImageInputState extends State<ImageInput> {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-          border: Border.all(
-              width: 1,
-              color: Theme.of(context).colorScheme.primary.withOpacity(0.3))),
+        border: Border.all(
+          width: 1,
+          color: Theme.of(context).colorScheme.primary.withOpacity(0.3),
+        ),
+      ),
       alignment: Alignment.center,
       height: 250,
       width: double.infinity,
